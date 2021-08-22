@@ -1,0 +1,50 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+}
+
+
+h1{
+    background-color: rgb(95, 94, 94);
+    color: rgb(209, 49, 9);
+}
+
+/* seacrhbar area */
+.capture-form{
+    border: 1px solid gray;
+    padding: 15px 10px;
+    margin-top: 70px;
+    width: 300px;
+    background-color: rgba(82, 82, 82, 0.562);
+    box-shadow: 0 2px 4px grey;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+
+.capture-form h3{color: rgba(250, 43, 6, 0.925);}
+
+
+/* remover messege */
+.todo-item {
+    border: 1px solid rgb(26, 25, 25);
+    margin: 10px 50px;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.todo-item:hover {
+   border-color: rgb(160, 160, 160);
+   color: rgb(238, 49, 1);
+   cursor: pointer;
+}
+
+/* remover button text */
+.todo-item h5{
+   display: inline-block;
+   width: 90%;
+}
